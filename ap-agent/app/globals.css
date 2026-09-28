@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0A0F1E;        /* Deep navy */
+  --bg-secondary: #111827;      /* Slightly lighter */
+  --bg-card: #1C2333;           /* Card backgrounds */
+  --bg-elevated: #243049;       /* Elevated elements */
+  --border: #2D3A52;            /* Borders */
+  --text-primary: #F0F4FF;      /* Primary text */
+  --text-secondary: #8B9DC3;    /* Secondary text */
+  --text-muted: #4A5A7A;        /* Muted labels */
+  --accent-blue: #3B82F6;       /* Primary actions */
+  --accent-green: #10B981;      /* Approved status */
+  --accent-yellow: #F59E0B;     /* Flagged status */
+  --accent-red: #EF4444;        /* Rejected status */
+  --accent-purple: #8B5CF6;     /* Memory/AI elements */
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+}
